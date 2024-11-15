@@ -306,7 +306,7 @@ public class ViewNameController {
 
 ### 핸들러 가져오기
 
-먼저 아래의 핸들러를 가져오는 메서드를 더 살펴본다.
+아래는 적절한 핸들러를 가져오는 메서드이다.
 ```java
 @Nullable  
 protected HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {  
