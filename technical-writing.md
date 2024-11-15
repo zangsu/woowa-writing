@@ -50,19 +50,6 @@ protected void doDispatch(HttpServletRequest request, HttpServletResponse respon
 ### HandlerExecutionChain
 
 ```java
-  
-package dispatcherServlet;  
-  
-import java.util.ArrayList;  
-import java.util.List;  
-  
-import jakarta.servlet.http.HttpServletRequest;  
-import jakarta.servlet.http.HttpServletResponse;  
-  
-import org.springframework.lang.Nullable;  
-import org.springframework.web.servlet.HandlerInterceptor;  
-import org.springframework.web.servlet.ModelAndView;  
-  
 public class HandlerExecutionChain {  
   
     private final Object handler;  
@@ -110,13 +97,7 @@ public class HandlerExecutionChain {
 
 `HandlerAdapter`는 인터페이스이다. 명세는 아래와 같이 정의된다.
 
-```java  
-package org.springframework.web.servlet;  
-  
-import jakarta.servlet.http.HttpServletRequest;  
-import jakarta.servlet.http.HttpServletResponse;  
-import org.springframework.lang.Nullable;  
-  
+```java
 public interface HandlerAdapter {  
     boolean supports(Object handler);  
   
