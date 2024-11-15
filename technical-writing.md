@@ -1,5 +1,12 @@
+# DispatcherSerlvet 알아보기
 
-## DispatcherSerlvet 알아보기
+스프링 동작에서 `DispatcherServlet`은 핵심적인 역할을 한다. 
+때문에 `DispatcherServlet`의 구조와 역할에 대한 지식은 스프링 프레임워크를 사용하는 개발자의 디버깅에 크게 도움이 되기도 한다.
+이번 글에서는 백엔드 디버깅에 도움이 될 수 있도록 가볍게 `DispatcherServlet`을 알아보자.   
+
+스프링 프레임워크를 최소 한 번은 사용하여 웹 개발을 해 본 경험이 있다면 글을 읽기 수월할 것이다.
+
+## DispatcherServlet의 구조
 먼저, `DispatcherServlet`의 핵심이 되는 객체들과 그 역할을 알아보면서 `DispatcherServlet`의 구조를 이해해 보자.
 
 ### DispatcherServlet
